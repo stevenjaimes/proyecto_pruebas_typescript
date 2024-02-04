@@ -1,0 +1,25 @@
+{
+  "name": "probando_typescript",
+  "version": "1.0.0",
+  "description": "probando typescript con ejemplos",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest",
+    "ts-node": "ts-node",
+    "multiply": "ts-node multiplicador.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "proyecto_pruebas_typescript"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "steven jaimes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
